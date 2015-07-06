@@ -85,6 +85,8 @@ Sub update()
     'ActiveWorkbook.Save'
     report_book.Save
     
+    MsgBox "Success! The report is generated!"
+        
     Application.DisplayAlerts = True
     Application.ScreenUpdating = True  'Turn on the function after running this macro
 End Sub
