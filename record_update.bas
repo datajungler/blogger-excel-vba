@@ -32,5 +32,6 @@ Sub recorded_update()
     ActiveWindow.Close
     
     Sheets("Report").Select
+    ActiveWorkbook.Save
 End Sub
 
